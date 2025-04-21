@@ -17,17 +17,17 @@ body{
 }
 
 .cursor-dot{
-    height: 15px;
-    width: 15px;
-    background-color:#00aaff;
+    height: 12px;
+    width: 12px;
+    background-color:#3A5A72;
     border-radius: 50%;
 }
 .cursor-outline{
-    background-color:#00aaff44;
-    height:300px;
-    width: 300px;
+    background-color:transparent;
+    height:75px;
+    width: 75px;
     border-radius: 50%;
-    filter: blur(50px);
+     border: 2px solid #3A5A72;
 }
 .cursor-dot,
 .cursor-outline{
